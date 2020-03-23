@@ -28,10 +28,10 @@ public class Solution37 {
                 {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
         };
         solveSudoku(board);
-        System.out.println(Solution36.isValidSudoku(board));
+        //System.out.println(Solution36.isValidSudoku(board));
     }
 
-    public static void solveSudoku(char[][] board) {
+    private static void solveSudoku(char[][] board) {
         boolean redo = true;
         while (redo) {
             redo = false;
